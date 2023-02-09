@@ -6,8 +6,10 @@ cnt = 0 # 갯수를 세기 위해 변수 선언
 for _ in range(N): # 막대기의 개수만큼 반복
     num = int(sys.stdin.readline()) # 각각 막대기의 높이 입력
     stick.append(num) # 막대기의 높이 리스트에 추가
-for i in reversed(stick):
+for i in reversed(stick): 
     if i > height:
         cnt += 1
         height = i
 print(cnt)
+
+# input() 이 아닌 sys의 readline()으로 바꾸니 됐다.
