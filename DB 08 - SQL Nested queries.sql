@@ -59,9 +59,7 @@ where
 order by
 	productCode desc;
 --
-SELECT customerNumber, COUNT(customerNumber) AS order_count
-    FROM orders
-    GROUP BY customerNumber
-    ORDER BY order_count DESC
-    LIMIT 2
+        SELECT orderNumber
+        FROM orders
+        WHERE orderDate BETWEEN "2004-01-01" AND "2004-12-31";
 --
