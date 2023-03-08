@@ -1,0 +1,24 @@
+.box1{
+    position: relative;
+    width: 300px;
+}
+.nang{
+    width: 300px;
+}
+.book{
+    position: absolute;
+    z-index: 2;
+    left: 20px;
+    top: 0;
+    width: 20%;
+}
+.season{
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 0;
+    width: 30%;
+}
+.text5{
+    color: gray;
+}

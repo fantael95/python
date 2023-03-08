@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>실습1번</title>
+  <style>
+    .card{
+        position: relative;
+        border: 1px solid black;
+        width: 900px;
+        display: flex;
+        flex-direction: row;
+    }
+    .card__photo{
+        position: relative;
+        width: 100%;
+        float:left;
+        height: 50px;
+    }
+    .card__photo-british{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 20%;
+    }
+    .card__photo-oldman{
+        width: 400px;
+    }
+    .card__text{
+        font-size: 15px;
+        float: right;
+    }
+    .card__text-left{
+        width: 50%;
+    }
+    .card__text-right{
+        width: 50%;
+    }
+  </style>
+</head>
+<body class="wrap">
+    <div class="card">
+        <div class="card__photo">
+            <img src="oldman.jpg" alt="" class="card__photo-oldman">
+            <img src="british.png" alt="" class="card__photo-british">
+        </div>
+        <div class="card__text">
+            <h1 class="card__text-left">팀 버너스리</h1>
+            <h2 class="card__text-right">프로그래머</h2>
+            <div class="card__text-left">국적</div>
+            <div class="card__text-right">영국</div>
+            <div class="card__text-left">생년월일</div>
+            <div class="card__text-right">1955년 6월 8일</div>
+            <div class="card__text-left">직업</div>
+            <div class="card__text-right">전산과학자, 프로그래머, 교수</div>
+            <div class="card__text-left">출신 대학</div>
+            <div class="card__text-right">옥스퍼드 대학교 물리학 석사</div>
+            <div class="card__text-left">추가 정보</div>
+            <div class="card__text-right"><a href="https://ko.wikipedia.org/wiki/팀_버너스리">https://ko.wikipedia.org/wiki/팀_버너스리</a></div>
+        </div>
+    </div>
+</body>
+</html>

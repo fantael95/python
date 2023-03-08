@@ -1,0 +1,27 @@
+.line{
+  width : 700px;
+  height: 1000px;
+  background-color: white;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+.p_title{
+  font-weight: bold;
+}
+.box1{
+  position: relative;
+}
+.img1{
+  width: 50px;
+  height: 50px;
+  z-index: 3;
+  position: absolute;
+  right : 0;
+}
+.img2{
+  width: 100%;
+  z-index: 2;
+  height: 500px;
+  position: relative;
+}
